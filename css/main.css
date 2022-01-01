@@ -1,5 +1,7 @@
+/*----------RESET-----------*/
 @charset"utf-8";
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 * {
     margin: 0;
     padding: 0; 
@@ -8,18 +10,22 @@
     color: black;
     list-style-type: none;
 }
-/*----------main.html-----------*/
+
 body {
   font-family: "Noto Sans KR", sans-serif !important;
 }
 
+/*----------RESET-----------*/
+
+/*----------HEADER-----------*/
 header{
     height: 100px;
     width: 1600px;
     /* border: solid red 5px; */
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
+    background-color: white;
 }
 
 header > .left{
@@ -77,3 +83,61 @@ header > .right > ul > li > a > img{
     width: 22px;
     height: 22px;
 }
+
+/*----------HEADER-----------*/
+
+/*----------SECTION SLIDE-----------*/
+.slide{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/*----------SECTION SLIDE-----------*/
+
+/*----------SECTION product-----------*/
+#product{
+    width: 1600px;
+    /* border: solid black 3px; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#product > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#product > ul > li{
+    /* border: solid black 3px; */
+    margin: 10px 40px;
+}
+
+
+#product > ul > li > .PDimg > img {
+    width: 305px;
+    height: 305px;
+    /* border: solid red 3px; */
+}
+
+
+#product > ul > li > .PDdiscript{
+    text-align: center;
+    /* border: solid red 3px; */
+}
+
+#product > ul > li > .PDdiscript > h5 {
+    color: #7a000c;
+    font-size: 15px;
+}
+
+#product > ul > li > .PDdiscript > h5 > span{
+    color: black;
+    font-size: 15px;
+}
+
+#product > ul > li > .PDdiscript > h5 > a {
+    font-size: 17px;
+    color: #555;
+}
+/*----------SECTION product-----------*/
