@@ -102,6 +102,18 @@ header > .right > ul > li > a > img{
     margin-bottom: 100px;
 }
 
+#product > .line{
+   margin-top: 50px;
+    width: 1600px;
+    text-align: center;
+    /* border: solid black 3px; */
+}
+
+#product > .line > h1{
+    font-size: 30px;
+    color: #555;
+}
+
 #product > ul {
     display: flex;
     flex-wrap: wrap;
