@@ -94,62 +94,125 @@ header > .right > ul > li > a > img{
 
 /*----------SECTION SLIDE-----------*/
 
-/*----------SECTION product-----------*/
-#product{
+/*----------SECTION Shoes-----------*/
+#Shoes{
     width: 1600px;
     /* border: solid black 3px; */
     margin: 0 auto;
     margin-bottom: 100px;
 }
 
-#product > .line{
+#Shoes > .line{
    margin-top: 50px;
     width: 1600px;
     text-align: center;
     /* border: solid black 3px; */
 }
 
-#product > .line > h1{
+#Shoes > .line > h1{
     font-size: 30px;
     color: #555;
 }
 
-#product > ul {
+#Shoes > ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#product > ul > li{
+#Shoes > ul > li{
     /* border: solid black 3px; */
     margin: 10px 40px;
 }
 
 
-#product > ul > li > .PDimg > img {
+#Shoes > ul > li > .Shoesimg > img {
     width: 305px;
     height: 305px;
     /* border: solid red 3px; */
 }
 
 
-#product > ul > li > .PDdiscript{
+#Shoes > ul > li > .Shoesdiscript{
     text-align: center;
     /* border: solid red 3px; */
 }
 
-#product > ul > li > .PDdiscript > h5 {
+#Shoes > ul > li > .Shoesdiscript > h5 {
     color: #7a000c;
     font-size: 15px;
 }
 
-#product > ul > li > .PDdiscript > h5 > span{
+#Shoes > ul > li > .Shoesdiscript > h5 > span{
     color: black;
     font-size: 15px;
 }
 
-#product > ul > li > .PDdiscript > h5 > a {
+#Shoes > ul > li > .Shoesdiscript > h5 > a {
     font-size: 17px;
     color: #555;
 }
-/*----------SECTION product-----------*/
+/*----------SECTION Shoes-----------*/
+
+/*----------SECTION Wear-----------*/
+#Wear{
+    width: 1600px;
+    /* border: solid black 3px; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#Wear > .line{
+   margin-top: 50px;
+    width: 1600px;
+    text-align: center;
+    /* border: solid black 3px; */
+}
+
+#Wear > .line > h1{
+    font-size: 30px;
+    color: #555;
+}
+
+#Wear > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Wear > ul > li{
+    /* border: solid black 3px; */
+   margin: 10px;
+}
+
+
+#Wear > ul > li > .Wearimg > img {
+    width: 305px;
+    height: 305px;
+    /* border: solid red 3px; */
+}
+
+
+#Wear > ul > li > .Weardiscript{
+    margin-top: 30px;
+    text-align: center;
+    /* border: solid red 3px; */
+    width: 300px;
+}
+
+#Wear > ul > li > .Weardiscript > h5 {
+    color: #7a000c;
+    font-size: 15px;
+}
+
+#Wear > ul > li > .Weardiscript > h5 > span{
+    color: black;
+    font-size: 15px;
+}
+
+#Wear > ul > li > .Weardiscript > h5 > a {
+    font-size: 17px;
+    color: #555;
+    /* border: solid red 3px; */
+}
+/*----------SECTION Shoes-----------*/
