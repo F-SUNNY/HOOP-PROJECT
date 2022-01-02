@@ -13,6 +13,8 @@
 
 body {
   font-family: "Noto Sans KR", sans-serif !important;
+  margin: 0 auto;
+  width: 1600px;
 }
 
 /*----------RESET-----------*/
@@ -26,6 +28,7 @@ header{
     display: flex;
     justify-content: space-between;    
     background-color: white;
+    position: fixed;
 }
 
 header > .left{
@@ -215,4 +218,19 @@ header > .right > ul > li > a > img{
     color: #555;
     /* border: solid red 3px; */
 }
+
 /*----------SECTION Shoes-----------*/
+
+/*----------SECTION Shoes-----------*/
+
+#gal > .line{
+    text-align: center;
+     /* border: solid black 3px; */
+ }
+
+ #gal > .gallery{
+    width: 1600px;
+    height: 1200px;
+    border: black solid 3px;
+ }
+ /*----------SECTION Shoes-----------*/
