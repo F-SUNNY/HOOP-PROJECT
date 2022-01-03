@@ -120,12 +120,13 @@ header > .right > ul > li > a > img{
 #Shoes > ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 
 #Shoes > ul > li{
     /* border: solid black 3px; */
     margin: 10px 40px;
+    
 }
 
 
@@ -221,16 +222,124 @@ header > .right > ul > li > a > img{
 
 /*----------SECTION Shoes-----------*/
 
-/*----------SECTION Shoes-----------*/
+/*----------SECTION gallery-----------*/
 
-#gal > .line{
+#gallery > .line{
     text-align: center;
+    margin-bottom: 50px;
      /* border: solid black 3px; */
- }
+}
 
- #gal > .gallery{
+#gallery > .gal{
     width: 1600px;
     height: 1200px;
-    border: black solid 3px;
- }
- /*----------SECTION Shoes-----------*/
+    /* border: black solid 3px; */
+    display: flex;
+    
+}
+ 
+#gallery > .gal > .leftgal{
+    width: 800px;
+    height: 1200px;
+    /* border: solid black 1px; */
+ 
+}
+
+#gallery > .gal > .leftgal > .LT{
+    width: 800px;
+    height: 800px;
+    /* border: solid black 1px; */
+    
+}
+
+#gallery > .gal > .leftgal > .LT > img{
+    width: 800px;
+    height: 800px;
+}
+
+#gallery > .gal > .leftgal > .LL{
+    width: 800px;
+    height: 400px;
+    /* border: solid black 1px; */
+    display: flex;
+ 
+}
+
+#gallery > .gal > .leftgal > .LL > .LLL{
+    width: 400px;
+    height: 400px;
+    /* border: solid black 1px; */
+
+}
+
+#gallery > .gal > .leftgal > .LL > .LLL > img{
+ width: 400px;
+ height: 400px;   
+}
+
+#gallery > .gal > .leftgal > .LL > .LLR{
+    width: 400px;
+    height: 400px;
+    /* border: solid black 1px; */
+
+}
+
+#gallery > .gal > .leftgal > .LL > .LLR > img{
+    width: 400px;
+    height: 400px;
+}
+
+#gallery > .gal > .rightgal{
+    width: 800px;
+    height: 1200px;
+    /* border: solid black 1px; */
+    
+}
+
+#gallery > .gal > .rightgal > .RT{
+    width: 800px;
+    height: 400px;
+    /* border: solid black 1px; */
+    display: flex;
+
+}
+
+#gallery > .gal > .rightgal > .RT > .RTL{
+    width: 400px;
+    height: 400px;
+    /* border: solid black 1px; */
+
+}
+
+#gallery > .gal > .rightgal > .RT > .RTL > img{
+    width: 400px;
+    height: 400px;
+}
+
+#gallery > .gal > .rightgal > .RT > .RTR{
+    width: 400px;
+    height: 400px;
+    /* border: solid black 1px; */
+
+}
+
+#gallery > .gal > .rightgal > .RT > .RTR > img{
+    width: 400px;
+    height: 400px;
+}
+
+#gallery > .gal > .rightgal > .RL{
+    width: 800px;
+    height: 800px;
+    /* border: solid black 1px; */
+}
+
+#gallery > .gal > .rightgal > .RL > img {
+    width: 800px;
+    height: 800px;
+}
+
+/*----------SECTION gallery-----------*/
+footer{
+    height: 1000px;
+}
