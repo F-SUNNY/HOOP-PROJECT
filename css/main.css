@@ -341,5 +341,41 @@ header > .right > ul > li > a > img{
 
 /*----------SECTION gallery-----------*/
 footer{
-    height: 1000px;
+    text-align: center;
+    
+}
+
+footer > .f_top {
+    height: 236px;
+    background-color: #555;
+    padding: 40px;
+    
+}
+
+footer > .f_top > .inf >p{
+    font-size: 14px;
+    color: #f8f8f8;
+}
+
+footer > .f_top > .inf >h1{
+    color: #f8f8f8;
+}
+
+footer > .f_top > .inf2 {
+    display: flex;
+    margin: 0 auto;
+    /* border: solid 3px red; */
+    width: 670px;
+    margin-top: 15px;
+}
+
+footer > .f_top > .inf2 > a{
+    color: #f8f8f8;
+    border: solid 1px #f8f8f8;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 172px;
+    height: 48px;
+    line-height: 46px;
 }
