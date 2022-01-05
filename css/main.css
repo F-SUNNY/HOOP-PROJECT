@@ -340,6 +340,9 @@ header > .right > ul > li > a > img{
 }
 
 /*----------SECTION gallery-----------*/
+
+/*----------FOOTER-----------*/
+
 footer{
     text-align: center;
     
@@ -349,6 +352,7 @@ footer > .f_top {
     height: 236px;
     background-color: #555;
     padding: 40px;
+    /* border: solid red 3px; */
     
 }
 
@@ -379,3 +383,58 @@ footer > .f_top > .inf2 > a{
     height: 48px;
     line-height: 46px;
 }
+
+footer > .f_bottom {
+    background-color: #333;
+    padding: 40px 0;
+}
+
+footer > .f_bottom > ul{
+    display: flex;
+    margin: 0 auto;
+    /* border: solid white 3px; */
+    width: 120px;
+}
+
+footer > .f_bottom > .snslogo > li {
+    margin: 0 5px;
+}
+
+footer > .f_bottom > .snslogo > li > a > img{
+    width: 47px;
+    border-radius: 50%;
+}
+
+footer > .f_bottom > .etc {
+    display: flex;
+    padding-top: 24px;
+    width: 470px;
+}
+
+footer > .f_bottom > .etc > li > a{
+    font-size: 14px;
+    padding: 0 8px;
+    color: #b6b6b6;
+}
+
+footer > .f_bottom > .info{
+    padding-top: 18px;
+}
+
+footer > .f_bottom > .info > h1 {
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    color: #b6b6b6;
+}
+
+footer > .f_bottom > .info > p{
+    font-size: 14px;
+    color: #b6b6b6;
+}
+
+footer > .f_bottom > .info > p.copy{
+    padding-top: 11px;
+}
+
+/*----------FOOTER-----------*/
